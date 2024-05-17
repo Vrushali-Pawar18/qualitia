@@ -120,7 +120,7 @@ const QualitiaCustomers = () => {
                 end: " bottom 10%",
                 onEnter: () => tl.play(),
                 onEnterBack: () => tl.reverse(),
-                markers: true,
+            
                 animation: tl
             });
         }
