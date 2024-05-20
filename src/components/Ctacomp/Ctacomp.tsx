@@ -37,7 +37,7 @@ const Ctacomp = () => {
 
             ScrollTrigger.create({
                 trigger: containerRef.current,
-                start: 'top 30%',
+                start: 'top 20%',
                 end: 'bottom 10%',
                 animation: tl,
                 onEnter: () => tl.play(),
