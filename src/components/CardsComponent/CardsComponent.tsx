@@ -51,7 +51,7 @@ const CardsComponent = () => {
                     tl.fromTo(
                         cards,
                         { y: 500, opacity: 0 },
-                        { y: 0, opacity: 1, duration: 0.7, ease: "slow(0.7, 0.7, false)", stagger: 0.2 }
+                        { y: 0, opacity: 1, duration: 0.6, ease: "slow(0.7, 0.7, false)", stagger: 0.2 }
                     );
 
                     ScrollTrigger.create({

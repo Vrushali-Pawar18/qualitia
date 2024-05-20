@@ -37,7 +37,7 @@ const Ctacomp = () => {
 
             ScrollTrigger.create({
                 trigger: containerRef.current,
-                start: 'top 55%',
+                start: 'top 30%',
                 end: 'bottom 10%',
                 animation: tl,
                 onEnter: () => tl.play(),
@@ -54,7 +54,7 @@ const Ctacomp = () => {
 
     return (
         <div>
-            <div ref={containerRef} className="ctacomp flex flex-col justify-center items-center mt-32">
+            <div ref={containerRef} className="ctacomp flex flex-col justify-center items-center">
                 <div className="h-64 w-full bg-blue-950 text-white py-7 flex flex-col justify-center gap-6 items-center text-xl">
                     {data.ctas.data.map((cta: any, index: any) => {
                         return (
